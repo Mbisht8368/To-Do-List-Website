@@ -1,0 +1,37 @@
+@media (width < 416px) {
+    .toDoListBox {
+      box-shadow: none;
+      margin-top: 1rem;
+    }
+    .inputDiv {
+      height: 10%;
+      margin-bottom: 1rem;
+    }
+    .outerContainer {
+      align-items: normal;
+      height: auto;
+    }
+    header {
+      height: 5rem;
+      font-size: 3.5rem;
+    }
+    .inputArea {
+      height: 50%;
+      width: 73%;
+      padding: 0 1.5rem;
+      padding-bottom: 1rem;
+      margin-right: 0.5rem;
+    }
+  }
+  
+  @media (width < 341px) {
+    html {
+      font-size: 58%;
+    }
+  }
+  @media (width < 310px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  

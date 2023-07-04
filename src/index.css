@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 8vh;
+  background-color: darkslateblue;
+  color: white;
+  font-family: "Pacifico", Arial, Helvetica, sans-serif;
+  font-size: 4.3rem;
+}
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 91vh;
+}
+
+.toDoListBox {
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 55rem;
+  width: 38rem;
+  box-shadow: 0px 0px 20px darkslateblue;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20%;
+}
+
+.inputArea {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid darkslateblue;
+  height: 40%;
+  width: 77%;
+  text-align: center;
+  padding: 0 1.5rem;
+  font-family: "Potta One", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.addButton {
+  font-size: 3.5rem;
+  margin-left: 0.5rem;
+  color: darkslateblue;
+}
+
+li {
+  font-family: "Potta One", Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 1rem;
+  font-size: 2.3rem;
+  list-style: none;
+  margin-left: 1rem;
+}
+
+li > i {
+  padding-top: 0.8rem;
+  color: darkslateblue;
+}
+
+.resultDiv {
+  height: 80%;
+  overflow-x: auto;
+}
